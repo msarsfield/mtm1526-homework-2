@@ -1,0 +1,42 @@
+
+/* Mary Sarsfield*/
+
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	
+	background-color: #FFC;
+	width: 500px;
+}
+
+.box {
+	width: 200px;
+	height: 20px;
+	background-color: #C9C;
+	position: absolute;
+	padding: 5px;
+	left: 25px;
+	top: 200px;
+	color: #000;
+	font-family:"Comic Sans MS", cursive;
+	border: 1px solid #999;
+	
+	-moz-transition: all 200ms linear;
+	-webkit-transition: all 200ms linear;
+	-ms-transition: all 200ms linear;
+	-o-transition: all 200ms linear;
+	transition: all 200ms linear;
+}
+
+button {
+	position:relative;
+	z-index: 5555;
+
+}
+
+.active {
+	border: 1px solid #999;
+	text-decoration: line-through;
+	color: #393;
+}
